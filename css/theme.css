@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#app {
+    margin: 2%;
+}
+
+.slider {
+    border-top: .4px solid rgb(238,238,238);
+}
+
+.product {
+    width: 300px;
+    float: left;
+}
+
+.img-box {
+    height: 300px;
+}
+
+.product-name {
+    height: 50px;
+    width: 250px;
+}
+
+.product-price {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.tns-outer {
+    position: relative;
+}
+
+button[data-controls="prev"], button[data-controls="next"] {
+    padding: 15px;
+    border: 0;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.781);
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+}
+
+button[data-controls="next"] {
+    left: 87%;
+}
